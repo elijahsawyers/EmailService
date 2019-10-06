@@ -25,7 +25,7 @@ PORT=port # The port to expose.
 node src/service.js
 ```
 
-**Now any data posted to localhost will be send in an email to the email address specified in the TO_EMAIL constant!**
+**Now any data posted to localhost will be sent in an email to the email address specified in the TO_EMAIL constant!**
 
 # Built With
 * [Node.js](https://nodejs.org)
