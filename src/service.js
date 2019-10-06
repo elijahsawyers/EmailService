@@ -5,6 +5,7 @@
 
 /* -- Imports -- */
 const bodyParser = require('body-parser');
+const cors = require('cors');
 const dotenv = require('dotenv');
 const express = require('express');
 const fs = require('fs');
@@ -16,6 +17,9 @@ const TO_EMAIL = 'elijahsawyers@gmail.com';
 
 /* -- Configuration -- */
 const service = express();
+service.use(cors({
+  origin: 'http://elijahsawyers.me',
+}))
 service.use(bodyParser.json());
 service.use(bodyParser.urlencoded({ extended: true }));
 dotenv.config();
