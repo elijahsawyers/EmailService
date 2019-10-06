@@ -1,1 +1,1 @@
-# email-script
+# email-service
