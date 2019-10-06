@@ -18,7 +18,7 @@ const TO_EMAIL = 'elijahsawyers@gmail.com';
 /* -- Configuration -- */
 const service = express();
 service.use(cors({
-  origin: 'http://elijahsawyers.me',
+  origin: 'https://elijahsawyers.me',
 }))
 service.use(bodyParser.json());
 service.use(bodyParser.urlencoded({ extended: true }));
